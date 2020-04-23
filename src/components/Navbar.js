@@ -5,7 +5,7 @@ import '../App.css';
 
 function Navbar() {
   const mystyle = {
-    padding: '2vw',
+    padding: '1vw',
     color: 'white',
     margin: '0',
   };

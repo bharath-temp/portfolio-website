@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
 .navbar {
   position: fixed;
   top: 4%;
@@ -8,15 +14,27 @@
 }
 
 .navbar > .active {
-  border: 0.1em solid white;
-  border-radius: 100px;
-  border-spacing: 15px;
-  padding: 0%;
+  border-bottom: 0.1em solid white;
 }
 
 .homepage {
   height: 100vh;
-  background-color: skyblue;
+  background-image: url(https://images.unsplash.com/photo-1554110397-9bac083977c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDk0fQ&auto=format&fit=crop&w=1650&q=80);
+}
+
+.HomeContent .hometext h1{
+  font-size: 3em;
+}
+
+.HomeContent .hometext {
+  color: white;
+  font-size: 2.3em;
+}
+
+.HomeContent .Icons {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .projects {
