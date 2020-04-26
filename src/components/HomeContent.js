@@ -15,7 +15,7 @@ function HomeContent() {
       <div className="hometext">
         <h1> Bharath Padmaraju </h1>
         <Typical
-          steps={['I am a Software Engineer', 1000, 'I am an idiot', 500]}
+          steps={['I am a Software Engineer', 1000, 'I am a Software Engineer, I think', 500]}
           loop={Infinity}
         />
       </div>
