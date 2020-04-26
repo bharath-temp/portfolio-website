@@ -34,7 +34,7 @@
 .HomeContent .Icons {
   display: table;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto
 }
 
 .projects {
@@ -45,6 +45,10 @@
 .resume {
   height: 100vh;
   background-color: tomato;
+}
+
+.resume-image{
+  padding: 100%;
 }
 
 .contact {
