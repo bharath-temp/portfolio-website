@@ -34,21 +34,19 @@
 .HomeContent .Icons {
   display: table;
   margin-right: auto;
-  margin-left: auto
+  margin-left: auto;
+  padding-top: 10%;
 }
 
 .projects {
   height: 100vh;
   background-color: mediumpurple;
+  display: block;
 }
 
 .resume {
   height: 100vh;
   background-color: tomato;
-}
-
-.resume-image{
-  padding: 100%;
 }
 
 .contact {
