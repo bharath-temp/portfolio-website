@@ -17,13 +17,14 @@ function HomeContent() {
         <Typical
           steps={['I am a Software Engineer', 1000, 'I am a Software Engineer, I think', 500]}
           loop={Infinity}
+          padding-bottom="10%"
         />
       </div>
       <div className="Icons">
         <IconButton target="_blank" href={linkedinLink} style={{ color: grey[50] }}>
           <LinkedInIcon style={{ fontSize: '8vh' }} />
         </IconButton>
-        <IconButton target="_blank" href={githubLink} style={{ color: grey[50], size: 'small' }}>
+        <IconButton target="_blank" href={githubLink} style={{ color: grey[50] }}>
           <GitHubIcon style={{ fontSize: '8vh' }} />
         </IconButton>
       </div>
