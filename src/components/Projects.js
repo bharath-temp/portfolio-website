@@ -21,8 +21,19 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 
+const useStyles = makeStyles({
+  root: {
+    maxWidth: 345,
+    height: 140,
+  },
+  gridLayout: {
+    'padding-top': '80px',
+  },
+});
+
 
 function Projects() {
+  const classes = useStyles();
   const items = [
     {
       name: 'Portfolio Website',
@@ -38,27 +49,57 @@ function Projects() {
       githubUrl: 'https://github.com/bharathpadmaraju/portfolio-website',
       demoUrl: 'http://localhost:3000/',
     },
+    {
+      name: 'Random Name #2',
+      description: 'Hello World!',
+      githubUrl: 'https://github.com/bharathpadmaraju/portfolio-website',
+      demoUrl: 'http://localhost:3000/',
+    },
+    {
+      name: 'Random Name #2',
+      description: 'Hello World!',
+      githubUrl: 'https://github.com/bharathpadmaraju/portfolio-website',
+      demoUrl: 'http://localhost:3000/',
+    },
+    {
+      name: 'Random Name #2',
+      description: 'Hello World!',
+      githubUrl: 'https://github.com/bharathpadmaraju/portfolio-website',
+      demoUrl: 'http://localhost:3000/',
+    },
+    {
+      name: 'Random Name #2',
+      description: 'Hello World!',
+      githubUrl: 'https://github.com/bharathpadmaraju/portfolio-website',
+      demoUrl: 'http://localhost:3000/',
+    },
+    {
+      name: 'Random Name #2',
+      description: 'Hello World!',
+      githubUrl: 'https://github.com/bharathpadmaraju/portfolio-website',
+      demoUrl: 'http://localhost:3000/',
+    },
+    {
+      name: 'Random Name #2',
+      description: 'Hello World!',
+      githubUrl: 'https://github.com/bharathpadmaraju/portfolio-website',
+      demoUrl: 'http://localhost:3000/',
+    },
   ];
   // xs={12} sm={6} md={4} lg={4} xl={3}
   return (
     <div className="projects" id="Projects">
-      <Grid container>
+      <Grid container className={classes.gridLayout} spacing={1}>
         {items.map((item) => (<Item item={item} />))}
       </Grid>
     </div>
   );
 }
 
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 345,
-  },
-});
-
 function Item({ item }) {
   const classes = useStyles();
   return (
-    <Grid item sm>
+    <Grid item xs={4}>
       <Card className={classes.root}>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
