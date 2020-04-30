@@ -40,16 +40,16 @@
 
 .projects {
   height: 100vh;
-  background-color: mediumpurple;
+  background-color: #1b3752;
   display: block;
 }
 
 .resume {
   height: 100vh;
-  background-color: tomato;
+  background-color: #204161;
 }
 
 .contact {
   height: 100vh;
-  background-color: blue;
+  background-color: #254b70;
 }
